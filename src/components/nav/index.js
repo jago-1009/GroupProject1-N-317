@@ -8,10 +8,19 @@ export default function Nav() {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/">Characteristics</a>
+          <a href="/characteristics">Characteristics</a>
         </li>
         <li>
-          <a href="/">Contact</a>
+          <a href="/habitat">Habitat/Diet</a>
+        </li>
+        <li>
+          <a href="/science">Science</a>
+        </li>
+        <li>
+          <a href="/culture">Culture</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
     </nav>
