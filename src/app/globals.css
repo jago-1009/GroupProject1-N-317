@@ -1,11 +1,20 @@
 @font-face {
-  font-family: 'Comfortaa';
-  src: url('../app/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
+  font-family: "Comfortaa";
+  src: url("../app/fonts/Comfortaa-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Kirang';
-  src: url('../app/fonts/KirangHaerang-Regular.ttf') format('truetype');
+  font-family: "Kirang";
+  src: url("../app/fonts/KirangHaerang-Regular.ttf") format("truetype");
 }
+
+:root {
+  --primary-color: #a39471;
+  --secondary-color: #b6cbaf;
+  --accent-color: #8ab48f;
+  --text-color: #070604;
+  --background-color: #faf9f7;
+}
+
 * {
   margin: 0;
   padding: 0;
