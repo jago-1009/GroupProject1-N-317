@@ -1,3 +1,9 @@
+import styles from "./characteristics.module.css";
+
 export default function Characteristics() {
-  return <main></main>;
+  return (
+    <main className={styles.main}>
+      <h1>Characteristics</h1>
+    </main>
+  );
 }
