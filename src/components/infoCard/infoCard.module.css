@@ -1,0 +1,41 @@
+.infoCard {
+    width:200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b6cbaf;
+    flex-direction: column;
+    clip-path: url('#rounded');
+text-align: center;
+transition: all 0.5s;
+    border-radius: 30px;
+    /* -webkit-transition: all 0.5s; */
+}
+.infoCard:hover {
+    /* -webkit-transition: all 0.5s; */
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.title {
+    margin-top:0px;
+    font-family: 'Kirang';
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.title, .content {
+    width:75%;
+    color:#070604;
+    
+}
+.content {
+    margin: 0 20px 20px 20px;
+    font-family: 'Comfortaa';
+}
