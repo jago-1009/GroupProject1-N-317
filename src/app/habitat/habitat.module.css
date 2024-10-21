@@ -1,0 +1,68 @@
+.main {
+  width: 100%;
+  min-height: 80vh;
+  background-color: var(--background-color);
+  padding: 3em 2em;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.habitatBox {
+  width: 30em;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.habitatBox h1 {
+  font-family: Kirang;
+  color: var(--text-color);
+  width: 20em;
+
+  background-color: var(--accent-color);
+  padding: 1rem;
+  margin-bottom: 0px;
+}
+
+.habitatBox p {
+  font-family: Comfortaa;
+  color: var(--text-color);
+  width: 40em;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
+
+.dietBox {
+  width: 30em;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.dietBox h1 {
+  font-family: Kirang;
+  color: var(--text-color);
+  width: 20em;
+
+  background-color: var(--accent-color);
+  padding: 1rem;
+  margin-bottom: 0px;
+}
+
+.dietBox p {
+  font-family: Comfortaa;
+  color: var(--text-color);
+  width: 40em;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  margin-bottom: 0px;
+}

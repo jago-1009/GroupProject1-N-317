@@ -1,0 +1,46 @@
+.factBox {
+  min-width: 10em;
+  min-height: 5em;
+  background-color: var(--accent-color);
+  border-radius: 10%;
+  padding: 1em;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  transition: transform 0.2s; /* Smooth transition */
+}
+
+.factBox:hover {
+  animation: shake 0.3s ease; /* Apply shake animation on hover */
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-3deg);
+  } /* Rotate left */
+  50% {
+    transform: rotate(3deg);
+  } /* Rotate right */
+  75% {
+    transform: rotate(-3deg);
+  } /* Rotate left */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.factBox h1 {
+  font-family: Kirang;
+  color: var(--text-color);
+}
+
+.factBox p {
+  font-family: Comfortaa;
+  color: var(--text-color);
+}
