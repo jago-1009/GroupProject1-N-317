@@ -1,3 +1,10 @@
 export default function Science() {
-  return <main></main>;
+  return <main>
+
+
+
+
+
+
+  </main>;
 }
