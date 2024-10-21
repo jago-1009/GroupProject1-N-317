@@ -46,9 +46,9 @@ export default function Culture() {
   <input className={cultureStyles.input} type="text" value={params.object} onChange={(e) => setParams({ ...params, object: e.target.value })} placeholder="An object" />
   <input className={cultureStyles.input} type="text" value={params.waterName} onChange={(e) => setParams({ ...params, waterName: e.target.value })} placeholder="A body of water" />
   <input className={cultureStyles.input} type="text" value={params.action} onChange={(e) => setParams({ ...params, action: e.target.value })} placeholder="An action" />
-  <input className={cultureStyles.input} type="text" value={params.verb4} onChange={(e) => setParams({ ...params, verb4: e.target.value })} placeholder="Another verb" />
+  <input className={cultureStyles.input} type="text" value={params.verb4} onChange={(e) => setParams({ ...params, verb4: e.target.value })} placeholder="A past-tense verb" />
   <input className={cultureStyles.input} type="text" value={params.object2} onChange={(e) => setParams({ ...params, object2: e.target.value })} placeholder="Another object" />
-  <input className={cultureStyles.input} type="text" value={params.verb5} onChange={(e) => setParams({ ...params, verb5: e.target.value })} placeholder="Another verb" />
+  <input className={cultureStyles.input} type="text" value={params.verb5} onChange={(e) => setParams({ ...params, verb5: e.target.value })} placeholder="A past-tense verb" />
   <input className={cultureStyles.input} type="text" value={params.ending} onChange={(e) => setParams({ ...params, ending: e.target.value })} placeholder="Another adjective" />
   </div>
   <button className={cultureStyles.button} onClick={() => setShowing(!showing) }>{text} story</button>
