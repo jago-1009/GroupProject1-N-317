@@ -1,0 +1,31 @@
+.title {
+    font-family: Kirang;
+    margin-top:20px;
+}
+.main {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: Comfortaa;
+    margin-bottom: 40px;
+}
+.content2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:30px;
+    font-family: Comfortaa;
+}
+.photo {
+    clip-path: url("#photo");
+}
