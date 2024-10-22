@@ -30,7 +30,7 @@
 
 .imgGallery {
   width: 300px;
-  height: 300px;
+  height: 350px;
   /* background-color: var(--primary-color); */
 
   display: flex;
@@ -42,8 +42,8 @@
 }
 
 .right img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 
   border-radius: 10%;
 
@@ -51,7 +51,7 @@
 }
 
 .right img:hover {
-  scale: 1.2;
+  scale: 1.125;
 }
 
 .galleryBtn {
