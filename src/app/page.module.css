@@ -1,10 +1,24 @@
 .mainHome {
   background-color: #faf9f7;
-  height: 90vh;
+  min-height: 90vh;
   padding: 2em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.575)),
+    url(/splash.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .mainHome h1 {
-  font-family: Kirang;
+  font-family: "Kirang";
   font-size: 50px;
+  color: #faf9f7;
+}
+
+.mainHome p {
+  color: white;
+  font-family: "Comfortaa";
+  font-weight: bold;
+  font-size: 18px;
+  width: 60%;
+  line-height: 25px;
 }
