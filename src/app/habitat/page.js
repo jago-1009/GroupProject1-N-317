@@ -2,6 +2,7 @@
 import styles from "./habitat.module.css";
 import FunFact from "@/components/funFact";
 import { useState } from "react";
+import InfoCard from "@/components/infoCard";
 
 export default function Habitat() {
   const [currentImg, setImg] = useState(0);
@@ -78,6 +79,13 @@ export default function Habitat() {
           </div>
         </div>
         <FunFact desc="A prehistoric armadillo, the glyptodon, was as big as a Volkswagen Beetle!"></FunFact>
+        <InfoCard
+          title={"Bones"}
+          content={
+            "Armadillos have 5 sharp claws on there hind feet and 3-5 toes with heavy digging claws on their forefeet."
+          }
+          href={"https://en.wikipedia.org/wiki/Armadillo"}
+        ></InfoCard>
       </div>
     </main>
   );
