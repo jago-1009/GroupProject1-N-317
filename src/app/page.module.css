@@ -1,4 +1,10 @@
 .mainHome {
   background-color: #faf9f7;
-  height: 80vh;
+  height: 90vh;
+  padding: 2em;
+}
+
+.mainHome h1 {
+  font-family: Kirang;
+  font-size: 50px;
 }
