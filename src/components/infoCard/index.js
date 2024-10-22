@@ -1,8 +1,8 @@
 import infoCardStyles from "./infoCard.module.css";
-const baseURL = "https://"
+
 export default function InfoCard({title, content, href}) {
     return (<div className={infoCardStyles.infoCard}>
-        <a href={baseURL + href} className={infoCardStyles.link}>
+        <a href={href} className={infoCardStyles.link}>
         <h2 className={infoCardStyles.title}>{title}</h2>
         <p className={infoCardStyles.content}>{content}</p>
         </a>
