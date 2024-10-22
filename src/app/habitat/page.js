@@ -42,19 +42,23 @@ export default function Habitat() {
             until the formation of the Isthmus of Panama. This allowed members
             of the family to migrate northward towards southern North America in
             the early Pleistocene, this formed part of the Great American
-            Interchange.
+            Interchange. Now Armadillos venture all the way up to southern
+            Indiana, Nebraska, and North Carolina.
           </p>
         </div>
         <div className={styles.dietBox}>
           <h1>Diet and Predation</h1>
           <p>
-            Armadillo diets are mostly consisted of insects, grubs, and
-            invertebrates. Some species feed mostly on ants and termites.
+            Armadillos are insectivores and while their diet mostly contains
+            insects and grubs, they also eat small fruit, eggs, and small
+            animals. Their closest relatives are anteaters and sloths.
           </p>
           <p>
             Many species of Armadillos use sharp claws to dig up their food and
             dens. The nine-banded armadillo specifically likes to dig burrows in
-            moist soil near creaks and streams where it likes to feed.
+            moist soil near creaks and streams where it likes to feed. When the
+            weather is cold though, they will often burrow together with a pile
+            of leaves since they are not good at staying warm on their own.
           </p>
           <p>
             Armadillos hunt for food with their sense of smell and dig their
@@ -73,7 +77,7 @@ export default function Habitat() {
             <button className={styles.btnRight} onClick={nextImg}></button>
           </div>
         </div>
-        <FunFact desc="Armadillo's have poor eyesight and need glasses to see."></FunFact>
+        <FunFact desc="A prehistoric armadillo, the glyptodon, was as big as a Volkswagen Beetle!"></FunFact>
       </div>
     </main>
   );
