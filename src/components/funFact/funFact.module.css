@@ -1,6 +1,6 @@
 .factBox {
   min-width: 10em;
-  max-width: 10em;
+  max-width: 18em;
   min-height: 5em;
   background-color: var(--accent-color);
   border-radius: 10%;
@@ -10,6 +10,8 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+
+  text-align: center;
 
   transition: transform 0.2s; /* Smooth transition */
 }
