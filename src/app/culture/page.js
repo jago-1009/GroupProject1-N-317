@@ -30,7 +30,7 @@ export default function Culture() {
     <div className={cultureStyles.container}>
   <h1 className={cultureStyles.title}>Culture</h1>
   <div className={cultureStyles.content}>
-  <p>Armadillos have a presence in cultures all over the world! They have a place in many indigenous cultures' stories and tales. Click on the cards below to learn more about Armadillos around the world!</p>
+  <p>Armadillos have a presence in cultures all over the world! They have a place in many indigenous cultures&apos; stories and tales. Click on the cards below to learn more about Armadillos around the world!</p>
   <div className={cultureStyles.infoCards}>
   <InfoCard title="Mexico" content="In indigenous South American cultures around Mexico, the Armadillo is prominent throughout many stories, signifying bountiful crops and a good harvest." href="https://www.mexicolore.co.uk/aztecs/flora-and-fauna/armadillo"/>
   <InfoCard title="Argentina" content="In Argentinian cultures, the Armadillo is represented as clever and quick-witted, and it is found in many stories and tales, including &apos;The Armadillo and the Fox&apos;." href="https://data.booksie.org/pratham-books/646-the-quirquincho-and-the-fox-a-folktale-from-argentina.pdf" />
@@ -54,7 +54,7 @@ export default function Culture() {
   <button className={cultureStyles.button} onClick={() => setShowing(!showing) }>{text} story</button>
   {showing && (
   <div className={cultureStyles.results}>
-  <p>Once upon a time, there lived a {params.adjective} armadillo. Their name was {params.name}. {params.name} loved to {params.verb1}, {params.verb2}, and {params.verb3}. One day, {params.name} saw a {params.object} sitting in the {params.waterName}. {params.name} decided to {params.action} the {params.object}, and said &rdquo;I can&apos;t wait to go home and show my family this {params.object}!&rdquo; Once {params.name} came home, they showed the {params.object} to their family, who {params.verb4} after seeing it! {params.name} was confused until they looked closer. It was actually a {params.object2}! {params.name}'s family all {params.verb5}, and they all lived {params.ending}.</p>
+  <p>Once upon a time, there lived a {params.adjective} armadillo. Their name was {params.name}. {params.name} loved to {params.verb1}, {params.verb2}, and {params.verb3}. One day, {params.name} saw a {params.object} sitting in the {params.waterName}. {params.name} decided to {params.action} the {params.object}, and said &rdquo;I can& apos;t wait to go home and show my family this {params.object}!&rdquo; Once {params.name} came home, they showed the {params.object} to their family, who {params.verb4} after seeing it! {params.name} was confused until they looked closer. It was actually a {params.object2}! {params.name}&apos;s family all {params.verb5}, and they all lived {params.ending}.</p>
   </div>
   )}
   </div>
