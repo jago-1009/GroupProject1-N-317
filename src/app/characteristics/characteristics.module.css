@@ -3,9 +3,45 @@
   min-height: 80vh;
   background-color: #faf9f7;
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Comfortaa";
 }
 
 .main h1 {
   font-family: Kirang;
   font-size: 50px;
+}
+
+.cont {
+  width: 60%;
+  margin-bottom: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont img {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.main button {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  border: 0;
+  box-shadow: 10px 10px 10px rgb(89, 110, 87);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Comfortaa";
+}
+
+.main button:hover {
+  background-color: var(--accent-color);
 }
