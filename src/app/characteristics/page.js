@@ -46,8 +46,8 @@ export default function Characteristics() {
         <h1>Skin</h1>
         <p>
           The armor is formed by plates of dermal bone covered in relatively
-          small overlapping epidermal scales called "scutes" which are composed
-          of keratin. The skin of an armadillo can glow under ultraviolet light.
+          small overlapping epidermal scales called scutes which are composed of
+          keratin. The skin of an armadillo can glow under ultraviolet light.
           Most species have rigid shields over the shoulders and hips, with a
           number of bands separated by flexible skin covering the back and
           flanks. Additional armor covers the top of the head, the upper parts
