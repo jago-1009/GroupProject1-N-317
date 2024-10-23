@@ -15,7 +15,7 @@ export default function Science() {
 </div>
 <FunFact desc="Armadillos are some of the only mammals that can produce genetically identical offspring! They can have up to four children that are genetically identical to their parents!" />
 <div className={scienceStyles.content2}>
-<p>Armadillos' body temperature also is similar in temperature to our skin, which makes armadillos vital in research regarding skin-borne diseases and discovering cures to ailments!</p>
+<p>Armadillos&apos; body temperature also is similar in temperature to our skin, which makes armadillos vital in research regarding skin-borne diseases and discovering cures to ailments!</p>
 <img src={Armadillo.src} alt="A photo of an Armadillo" width="490" className={scienceStyles.photo} />
 </div>
 
